@@ -1,0 +1,73 @@
+/* Наша команда */
+
+.section--team-bgc {
+  background-color: var(--team-background-color);
+}
+
+.profession {
+  display: flex;
+  text-align: center;
+}
+
+.profession__item {
+  background-color: var(--hero-text-color);
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  border-width: 0px;
+  & + & {
+    margin-left: 30px;
+  }
+}
+
+.group-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.group-team__title {
+  margin-bottom: 10px;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.group-team__position {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.socials__link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--hero-text-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-color);
+  transition: background-color 250ms var(--timing-function);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--hero-text-color);
+  }
+}
+
+.socials__icon {
+  fill: currentColor;
+}
+
+.socials__item + .socials__item {
+  margin-left: 10px;
+}
