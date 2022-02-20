@@ -48,8 +48,7 @@
   background-color: rgba(33, 150, 243, 0.9);
   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.3;
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms var(--timing-function);
   .examples__item:hover & {
     transform: translateY(0);
